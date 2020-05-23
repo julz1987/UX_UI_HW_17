@@ -1,0 +1,65 @@
+.logo {
+  width: 23%;
+  padding: 1%;
+}
+
+nav {
+  width:73%;
+  padding: 1%;
+}
+
+ul {
+  width: 50%;
+  margin-left: auto;
+  vertical-align: top;
+}
+
+li {
+  font-family: proxima-nova, sans-serif;
+  display:inline-block;
+}
+
+.logo {
+  text-align:center;
+}
+
+.heroImg {
+  height: 600px;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #5B09CB;
+  padding: 18px;
+  color: white;
+  font-size: 14px;
+  font-family: proxima-nova, sans-serif;
+  border-radius: 3px;
+}
+
+h1, h2 {
+  margin-bottom:30px;
+}
+
+h1 {
+  font-size:56px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size:18px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 14px;
+  font-family: proxima-nova, sans-serif;
+}
+
