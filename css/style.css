@@ -1,26 +1,29 @@
 .logo {
-  width: 23%;
-  padding: 1%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  text-align:center;
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
 }
 
 nav {
-  width:73%;
-  padding: 1%;
+  width: 100%;
+}
+
+.navlinks {
+  font-family: proxima-nova, sans-serif;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
 ul {
   width: 50%;
   margin-left: auto;
   vertical-align: top;
-}
-
-li {
-  font-family: proxima-nova, sans-serif;
-  display:inline-block;
-}
-
-.logo {
-  text-align:center;
 }
 
 .heroImg {
@@ -33,13 +36,28 @@ li {
   margin: 0 auto;
 }
 
+.my_header {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding-top: 20px;
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 95% 5%;
+}
+
 button {
   background-color: #5B09CB;
-  padding: 18px;
+  width: 200px;
+  height: 50px;
+  padding: 12px;
   color: white;
   font-size: 14px;
   font-family: proxima-nova, sans-serif;
   border-radius: 3px;
+  justify-content: center;
 }
 
 h1, h2 {
@@ -47,7 +65,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size:56px;
+  font-size:50px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -63,3 +81,18 @@ h3 {
   font-family: proxima-nova, sans-serif;
 }
 
+.inline-block {
+  display:flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+}
+
+.links {
+  display: flex;
+  background-color: #301667;
+  height: 100px;
+}
+
+.paragraph {
+  padding-top: 50px;
+}
